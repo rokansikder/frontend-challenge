@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm install`
-Run this command to restore npm modules for the app. If npm modules are not present in the project, app will not build
+Run this command to restore npm modules for the app. Witout npm modules you will not be able to run the app.
 
 ### `npm start`
 
