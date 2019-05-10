@@ -1,0 +1,90 @@
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: stretch;
+}
+
+
+.page-content {
+  flex: 1;
+  padding-left: 30px;
+}
+
+  .page-content h2 {
+      font-size: 30px;
+      font-weight: 400;
+  }
+
+  .page-content .content-area {
+      background: #fff;
+      border-radius: 5px;
+      margin: 20px 0;
+      box-shadow: 0px 0px 13px 0px rgba(82,63,105,0.1);
+      border: 1px solid #ddd;
+  }
+
+      .page-content .content-area .content-header {
+          border-bottom: 1px solid #aaa;
+          padding: 20px;
+      }
+
+      .page-content .content-area .content-form {
+          padding: 20px;
+      }
+
+      .commentBody{
+        padding: 20px;
+      }
+h3 {
+  margin: 0;
+}
+
+button {
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  width: 150px;
+  background: #004b8d;
+  border: 0;
+  padding: 10px 0;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btnCancel{
+  margin-left: 5px;
+  background: gray;
+}
+
+.textbox {
+  height: 40px;
+  font-size: 15pt;
+  border: 1px gray solid;
+}
+
+.textarea {  
+  height: 130px;
+  font-size: 15pt;
+  border: 1px gray solid;
+}
+
+p.message {
+  border: 1px solid black;
+  padding: 9px;
+  margin-bottom: 0;
+}
+
+  p.message.error-message {
+      border-color: #86181d;
+      color: #86181d;
+      background: #ffdce0;
+  }
+
+  p.message.success-message {
+      border-color: #18861d;
+      color: #18861d;
+      background: #dcffe0;
+  }
